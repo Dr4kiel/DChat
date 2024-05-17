@@ -39,9 +39,11 @@ int main(int argc, char* argv[])
 					std::cout << "--- Liste des commandes disponibles ---" << std::endl;
 					std::cout << "/help : Affiche la liste des commandes disponibles" << std::endl;
 					std::cout << "/quit : Quitte le programme" << std::endl;
-					std::cout << "/create : Cree un serveur" << std::endl;
-					std::cout << "/join : Rejoint un serveur" << std::endl;
-					std::cout << "/delete : Supprime un serveur" << std::endl;
+					std::cout << "/create <port> : Cree un serveur" << std::endl;
+					std::cout << "/join <ipaddress> <port> : Rejoint un serveur" << std::endl;
+					std::cout << "/delete : Supprime un serveur (Serveur Only)" << std::endl;
+					std::cout << "/disconnect : Deconnecte un client (Client Only)" << std::endl;
+					std::cout << "/list : Affiche la liste des clients connectes (Serveur Only)" << std::endl;
 					std::cout << "---------------------------------------" << std::endl;
 					break;
 				case Command::QUIT:
