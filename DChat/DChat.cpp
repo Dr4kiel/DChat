@@ -13,7 +13,7 @@
 
 int main(int argc, char* argv[])
 {
-    DLoggerInit("logs/", DLOGGER_DEBUG_LEVEL);
+    DLoggerInit("logs/", DLOGGER_ERROR_LEVEL);
     DLoggerInfo("Logger Initialized.");
 
 	ServerManager* serverManager = nullptr;
