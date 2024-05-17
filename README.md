@@ -1,5 +1,7 @@
 # DChat
 
+[![Static Badge](https://img.shields.io/badge/Downloads-V1.0-%2328d456)](https://github.com/Dr4kiel/DChat/releases/download/V1.0/DChat.x64.zip)
+
 ## Usage
 
 1. Lancer un serveur avec la commande /create <port>
