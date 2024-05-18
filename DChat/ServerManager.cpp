@@ -63,7 +63,7 @@ void ServerManager::serverLoop(bool * isRunning, void(*callback)(std::string, st
 	DLoggerDebug("Server loop started");
 	while (*isRunning)
 	{
-		// si le serveur est plee, on attend
+		// si le serveur est plein, on attend
 		if (clients_.size() >= MAX_CLIENTS)
 		{
 			continue;
